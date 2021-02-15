@@ -1,0 +1,18 @@
+
+
+
+
+
+
+
+
+
+
+# BEGIN ANSIBLE MANAGED BLOCK
+[Master]
+15.207.254.109 ansible_user=ec2-user 
+
+[Slaves]     
+13.235.87.218 ansible_user=ec2-user 
+52.66.253.189 ansible_user=ec2-user 
+# END ANSIBLE MANAGED BLOCK
