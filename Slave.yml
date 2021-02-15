@@ -1,0 +1,3 @@
+- hosts: Slaves
+  roles: 
+    - role: Kube_Slave
