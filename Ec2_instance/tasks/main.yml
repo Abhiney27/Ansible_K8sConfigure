@@ -8,8 +8,8 @@
          key_name: Arth_key
          name: Kube_Master
          state: present
-         aws_access_key: "{{access_key}}"
-         aws_secret_key: "{{secret_key}}"
+         aws_access_key: "{{ access_key }}"
+         aws_secret_key: "{{ secret_key }}"
   register: x
 
 
@@ -23,8 +23,8 @@
          key_name: Arth_key
          name: Kube_Slave1
          state: present
-         aws_access_key: AKIAVPDM7MFHGWL7ZBMP
-         aws_secret_key: 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
+         aws_access_key: "{{ access_key }}"
+         aws_secret_key: "{{ secret_key }}"
   register: y
 
 - name: Launching Slave2 instance
@@ -37,8 +37,8 @@
          key_name: Arth_key
          name: Kube_Slave2
          state: present
-         aws_access_key: AKIAVPDM7MFHGWL7ZBMP
-         aws_secret_key: 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
+         aws_access_key: "{{ access_key }}"
+         aws_secret_key: "{{ secret_key }}"
   register: z
 
 
