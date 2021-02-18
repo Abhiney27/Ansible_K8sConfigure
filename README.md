@@ -7,4 +7,5 @@
 
 # ec2_instance 
 It is a role to launch three AWS EC2 Instances one would be for Kubernetes Master and other two would be for Kubernetes Slaves
-To use this role you have to give 
+To use this role you have to edit the variable file by going into vars folder, you have to give your access_key , secret_key , region_name , image_id , instance_type , vpc_subnet_id , security_group , key_name.
+
