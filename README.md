@@ -16,6 +16,8 @@ It is an Ansible role to configure Kubernetes Master node
 # Kube_Slave
 It is an Ansible role to configure Kubernetes Slave nodes
 
+# ansible_cfg
+It is an Ansible configuration file 
 
 
 
