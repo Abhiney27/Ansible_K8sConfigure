@@ -1,3 +1,8 @@
 access_key: "your aws access key"
 secret_key: "your aws secret_key"
-
+region: "you region name eg: ap-south-1"
+image_id: "you image id"
+instance_type: "your instance type"
+vpc_subnet_id: "your subnet id"
+security_group: "your security group"
+key_name: "your aws key name with .pem extension" 
